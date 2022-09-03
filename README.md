@@ -1,5 +1,4 @@
 # WebToc
-A online directory for Web services.
+A online directory for Web services. Just playing around.
 
-The first version will have a hard-coded directory for the projects [opteamate](https://github.com/mrstefangrimm/opteamate) and [Phaso](https://github.com/mrstefangrimm/Phaso).
-Plans to extend it and use a database are not yet made.
+The first version, if ever made, will have a hard-coded directory for the [opteamate](https://github.com/mrstefangrimm/opteamate) and [Phaso](https://github.com/mrstefangrimm/Phaso) projects.

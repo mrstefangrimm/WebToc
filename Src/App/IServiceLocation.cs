@@ -13,6 +13,7 @@ namespace App {
     public static Val2Type<string> EVENTS = new Val2Type<string>("EVENTS");
     public static Val2Type<string> OPTIMA = new Val2Type<string>("OPTIMA");
     public static Val2Type<string> MOTIONSYSTEMS = new Val2Type<string>("MOTIONSYSTEMS");
+    public static Val2Type<string> LIVEIMAGES = new Val2Type<string>("LIVEIMAGES");
   }
 
   public interface IServiceLocation {

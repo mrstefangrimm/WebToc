@@ -30,6 +30,7 @@ namespace App {
         Url = "localhost",
       };
       virms.AddHref(WebTocHrefType.MOTIONSYSTEMS, "api/motionsystems");
+      // Not supported: virms.AddHref(WebTocHrefType.LIVEIMAGES, "");
 
       response.AddHref(HrefType.Get, "api/toc/toc");
 

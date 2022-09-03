@@ -20,7 +20,7 @@ namespace App {
       opteamate.Id = 1;
       opteamate.Data = new Service {
         Name = "opteamate",
-        Url = "https://opteamate.dynv6.org::50701",
+        Url = "https://webaepp.dynv6.net:50444",
       };
       opteamate.AddHref(WebTocHrefType.EVENTS, "api/events");
       opteamate.AddHref(WebTocHrefType.OPTIMA, "api/optima");
@@ -30,9 +30,10 @@ namespace App {
       virms.Id = 2;
       virms.Data = new Service {
         Name = "virms",
-        Url = "https://opteamate.dynv6.org::50702",
+        Url = "https://webaepp.dynv6.net:50445",
       };
       virms.AddHref(WebTocHrefType.MOTIONSYSTEMS, "api/motionsystems");
+      virms.AddHref(WebTocHrefType.LIVEIMAGES, "images");
 
       response.AddHref(HrefType.Get, "api/toc/toc");
 
